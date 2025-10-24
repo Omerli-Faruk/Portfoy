@@ -56,9 +56,9 @@ const Header = memo(forwardRef<HTMLElement>((_, ref) => {
                 <Logo size={size} />
                 <nav className="md:flex hidden">
                     <ul className="flex items-center gap-x-32 text-2xl font-bold text-slate-900 dark:text-slate-200">
-                        <NavLink href="#about">About</NavLink>
-                        <NavLink href="#projects">Projects</NavLink>
-                        <NavLink href="#contact">Contact</NavLink>
+                        <NavLink href="#about">Yeteneklerim</NavLink>
+                        <NavLink href="#projects">Projelerim</NavLink>
+                        <NavLink href="#contact">İletişim</NavLink>
                     </ul>
                 </nav>
                 <div>
