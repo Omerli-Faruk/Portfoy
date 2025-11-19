@@ -53,7 +53,7 @@ const Header = memo(forwardRef<HTMLElement>((_, ref) => {
             `}
         >
             <div className="w-full flex justify-between items-center max-w-6xl">
-                <Logo size={size} />szz
+                <Logo size={size} />
                 <nav className="md:flex hidden">
                     <ul className="flex items-center gap-x-32 text-2xl font-bold text-slate-900 dark:text-slate-200">
                         <NavLink href="#about">Yeteneklerim</NavLink>
